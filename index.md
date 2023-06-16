@@ -1,5 +1,5 @@
 # Raspberry Pi Smart Mirror
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+This is the Smart Mirror that I built during my time at BlueStamp Engineering. It's a screen embedded behind a piece of acrylic and can show you the time, news, weather, and holidays while remaining a mirror at the same time. It uses MagicMirror software commonly used by other smart mirrors in conjunction with a Raspberry Pi 4b to create a project that is both compact and elegant.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
