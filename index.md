@@ -1,5 +1,5 @@
 # Raspberry Pi Smart Mirror
-This is the Smart Mirror that I built during my time at BlueStamp Engineering. It's a screen embedded behind a piece of acrylic and can show you the time, news, weather, and holidays while remaining a mirror at the same time. It uses MagicMirror software commonly used by other smart mirrors in conjunction with a Raspberry Pi 4b to create a project that is both compact and elegant.
+This is the Smart Mirror that I built during my time at BlueStamp Engineering. It's a screen embedded behind a piece of mirrored acrylic and can show the user the time, news, weather, and holidays while remaining a mirror at the same time. It uses MagicMirror software commonly used by other smart mirrors in conjunction with a Raspberry Pi 4b to create a project that is both compact and elegant.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
