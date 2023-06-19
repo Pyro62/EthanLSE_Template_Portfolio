@@ -22,10 +22,10 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
+- Technical details: I've added my home wifi in the top left corner as a new module modification.
 - What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+- Challenges: This project marks my first time ever working with a Raspberry Pi/Linux like operating system. So it was a little tricky learning to work around and use the terminal effectively compared to using windows.
+- I'm looking to finish modifications to the mirror and have my final milestone be actually assembling the mirror as a tangible object.
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
