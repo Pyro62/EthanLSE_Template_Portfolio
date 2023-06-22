@@ -69,9 +69,11 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Raspberry Pi 4b | This is the core component fo the | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Hosyond 7 inch IPS LCD | What the item is used for | $49.98 | <a href="https://www.amazon.com/Hosyond-Display-1024%C3%97600-Capacitive-Raspberry/dp/B0BKGCB18T/?_encoding=UTF8&pd_rd_w=aPLf0&content-id=amzn1.sym.dba1a2d0-88dc-4504-a5d7-10259373e587&pf_rd_p=dba1a2d0-88dc-4504-a5d7-10259373e587&pf_rd_r=PW3XKRJXNFG3N0EQQDB9&pd_rd_wg=TeUvQ&pd_rd_r=a8622e2d-cbc6-458e-b09d-7f4773598fec&ref_=pd_gw_ci_mcx_mr_hp_atf_m&th=1"> Link </a> |
+| Hosyond 7 inch IPS LCD | This is the LCD used to display the output from the Raspberry Pi | $49.98 | <a href="https://www.amazon.com/Hosyond-Display-1024%C3%97600-Capacitive-Raspberry/dp/B0BKGCB18T/?_encoding=UTF8&pd_rd_w=aPLf0&content-id=amzn1.sym.dba1a2d0-88dc-4504-a5d7-10259373e587&pf_rd_p=dba1a2d0-88dc-4504-a5d7-10259373e587&pf_rd_r=PW3XKRJXNFG3N0EQQDB9&pd_rd_wg=TeUvQ&pd_rd_r=a8622e2d-cbc6-458e-b09d-7f4773598fec&ref_=pd_gw_ci_mcx_mr_hp_atf_m&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Two Way Acrylic Mirror | This item is used so that the LCD can display from behind the mirror to give a Magic Mirror effect. | $33.59 | <a href="https://www.amazon.com/SPEEDYORDERS-Acrylic-Through-Plexiglass-Unbreakable/dp/B09QQPX3TS/ref=sr_1_6?crid=15UVEJN4UC68B&keywords=2%2Bway%2Bacrylic%2Bmirror&qid=1687375092&sprefix=2%2Bway%2Bacryli%2Bmirror%2Caps%2C154&sr=8-6&th=1"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Picture Frame 8.5 x 11 | This item is used to house the mirror and the LCD. | $10.99 | <a href="https://www.amazon.com/MCS-Industries-63705-Gallery-Woodgrain/dp/B08179L7SD/ref=sr_1_45?crid=36PZUY91AR5B2&keywords=picture+frame&qid=1687377797&sprefix=picture+frame%2Caps%2C163&sr=8-45"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
 # Other Resources/Examples
