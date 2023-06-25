@@ -21,8 +21,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Second Milestone
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details: I've added my home wifi in the top left corner as a new module modification.
+For my second milestone, I've added additional functionality to the Smart Mirror Software as well as a few modifications.
+- Technical details: I've added my home wifi in the top left corner as a new module modification as well as a world clock in the middle left.
 - What has been surprising about the project so far
 - Challenges: This project marks my first time ever working with a Raspberry Pi/Linux like operating system. So it was a little tricky learning to work around and use the terminal effectively compared to using windows.
 - I'm looking to finish modifications to the mirror and have my final milestone be actually assembling the mirror as a tangible object.
