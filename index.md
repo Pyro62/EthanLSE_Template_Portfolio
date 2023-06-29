@@ -46,29 +46,22 @@ I plan to build the Smart Mirror with the open source MagicMirror software for t
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+Listed below are the modifications and code that have been used for the creation of the Smart Mirror.
 
-| **Part** | **Note** | **Price** | **Link** |
+| **Software** | **Purpose** | **Utility** | **Link** |
+|:--:|:--:|:--:|:--:|
+| Raspberry Pi 4b Starter Kit| This is the core component for the smart mirror that connects to the monitor | $119.96 (at current time) | <a href="https://www.pishop.us/product/raspberry-pi-4b-starter-kit/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Raspberry Pi 4b Starter Kit| This is the core component for the smart mirror that connects to the monitor | $119.96 (at current time) | <a href="https://www.pishop.us/product/raspberry-pi-4b-starter-kit/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Raspberry Pi 4b Starter Kit| This is the core component for the smart mirror that connects to the monitor | $119.96 (at current time) | <a href="https://www.pishop.us/product/raspberry-pi-4b-starter-kit/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Raspberry Pi 4b Starter Kit| This is the core component for the smart mirror that connects to the monitor | $119.96 (at current time) | <a href="https://www.pishop.us/product/raspberry-pi-4b-starter-kit/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
-```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
-```
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
+These are all the parts I've used in the physical construction of the Smart Mirror, prices may vary depending on date of purchase.
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
@@ -80,11 +73,3 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Picture Frame 8.5 x 11 | This item is used to house the mirror and the LCD. | $10.99 | <a href="https://www.amazon.com/MCS-Industries-63705-Gallery-Woodgrain/dp/B08179L7SD/ref=sr_1_45?crid=36PZUY91AR5B2&keywords=picture+frame&qid=1687377797&sprefix=picture+frame%2Caps%2C163&sr=8-45"> Link </a> |
 |:--:|:--:|:--:|:--:|
-
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
