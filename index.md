@@ -29,17 +29,16 @@ For my final milestone, I've fully completed and assembled the Smart Mirror as a
 # Second Milestone
 For my second milestone, I've added additional functionality to the Smart Mirror Software as well as a few modifications.
 - Technical details: I've added my home wifi in the top left corner as a new module modification as well as a world clock in the middle left.
-- What has been surprising about the project so far
-- Challenges: This project marks my first time ever working with a Raspberry Pi/Linux like operating system. So it was a little tricky learning to work around and use the terminal effectively compared to using windows.
+- Challenges: This project marks my first time ever working with a Raspberry Pi/Linux operating system. So it was a little tricky learning to work around and use the terminal effectively compared to using windows.
 - I'm looking to finish modifications to the mirror and have my final milestone be actually assembling the mirror as a tangible object.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8tbGLLOlhSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
 I plan to build the Smart Mirror with the open source MagicMirror software for the Raspberry Pi.
-- The only component of the Smart Mirro I have on hand now is the Raspberry Pi, as I plan to fully develop the software portion of this project before proceeding onto hardware.
+- The only component of the Smart Mirror I have on hand now is the Raspberry Pi, as I plan to fully develop the software portion of this project before proceeding onto hardware.
 - Technical progress: I have configured time, calendar, weather, compliments, and news to be displayed correctly through the software.
-- Challenges: I had trouble with creating the mm.sh file to autostart the Magic Mirror, but my instructor Mr. Remston guided me through that. I've also had challenges with the config.js file as well as the OpenWeather API, as it was my first time working with these elements. I worked through the config.js files by instead going through the module folder, rather than editing everything within the config.js file. 
+- Challenges: I had trouble with creating the mm.sh file to autostart the Magic Mirror, but my instructor Mr. Remston guided me through that. I have also had challenges with the config.js file as well as the OpenWeather API, as it was my first time working with these elements. I worked through the config.js files by instead going through the module folder, rather than editing everything within the config.js file. 
 - I plan to put the Raspberry Pi onto a 7 inch IPS display in a frame to complete this project, as well to add more modules and modifications.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PQV4ZbAJ9d4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -50,14 +49,13 @@ Listed below are the modifications and code that have been used for the creation
 
 | **Software** | **Purpose** | **Utility** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Raspberry Pi 4b Starter Kit| This is the core component for the smart mirror that connects to the monitor | $119.96 (at current time) | <a href="https://www.pishop.us/product/raspberry-pi-4b-starter-kit/"> Link </a> |
+| MagicMirror| This is the core software for the Smart Mirror, where all modules are based off of. | Base Module | <a href="https://github.com/MichMich/MagicMirror/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Raspberry Pi 4b Starter Kit| This is the core component for the smart mirror that connects to the monitor | $119.96 (at current time) | <a href="https://www.pishop.us/product/raspberry-pi-4b-starter-kit/"> Link </a> |
+| WorldClock Module| This module displays the time from various different countries and areas of interest. | World Clock(Time) | <a href="https://github.com/ulrichwisser/worldclock/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Raspberry Pi 4b Starter Kit| This is the core component for the smart mirror that connects to the monitor | $119.96 (at current time) | <a href="https://www.pishop.us/product/raspberry-pi-4b-starter-kit/"> Link </a> |
+| Home Wifi Module| This is the module that allows for the customization of a QR code to display the user's home Wi-Fi. | Home Wifi Accessibility | <a href="https://github.com/TeraTech/MMM-WiFiPassword/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Raspberry Pi 4b Starter Kit| This is the core component for the smart mirror that connects to the monitor | $119.96 (at current time) | <a href="https://www.pishop.us/product/raspberry-pi-4b-starter-kit/"> Link </a> |
-|:--:|:--:|:--:|:--:|
+
 
 
 # Bill of Materials
