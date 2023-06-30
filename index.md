@@ -10,8 +10,8 @@ This is the Smart Mirror that I built during my time at BlueStamp Engineering. I
 ![Headstone Image](logo.svg)
   
 # Final Milestone
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
+For my final milestone, I've fully completed and assembled the Smart Mirror as a final product. The 7-inch IPS screen sits behind a 2-way acrylic mirror that creates an illusion of a Magic Mirror.
+- Since my second milestone, I have assembled the Smart Mirror onto a 8.5 x 11 picture frame and completed the project in it's entirety
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
@@ -32,8 +32,8 @@ For my second milestone, I've added additional functionality to the Smart Mirror
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8tbGLLOlhSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
-I plan to build the Smart Mirror with the open source MagicMirror software for the Raspberry Pi
-- The only component so far is the raspberry pi since I'm working on the software first.
+I plan to build the Smart Mirror with the open source MagicMirror software for the Raspberry Pi.
+- The only component of the Smart Mirro I have on hand now is the Raspberry Pi, as I plan to fully develop the software portion of this project before proceeding onto hardware.
 - Technical progress: I have configured time, calendar, weather, compliments, and news to be displayed correctly through the software.
 - Challenges: I had trouble with creating the mm.sh file to autostart the Magic Mirror, but my instructor Mr. Remston guided me through that. I've also had challenges with the config.js file as well as the OpenWeather API, as it was my first time working with these elements. I worked through the config.js files by instead going through the module folder, rather than editing everything within the config.js file. 
 - I plan to put the Raspberry Pi onto a 7 inch IPS display in a frame to complete this project, as well to add more modules and modifications.
