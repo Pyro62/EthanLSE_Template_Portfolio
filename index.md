@@ -8,17 +8,21 @@ This is the Smart Mirror that I built during my time at BlueStamp Engineering. I
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
+
+![photo](20230629_123201.jpg)
   
 # Final Milestone
 For my final milestone, I've fully completed and assembled the Smart Mirror as a final product. The 7-inch IPS screen sits behind a 2-way acrylic mirror that creates an illusion of a Magic Mirror.
-- Since my second milestone, I have assembled the Smart Mirror onto a 8.5 x 11 picture frame and completed the project in it's entirety
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+- Since my second milestone, I have assembled the Smart Mirror onto a 8.5 x 11 picture frame and completed the project in it's entirety.
+- My biggest challenges with BlueStamp Engineering were learning how to work around a completely unfamiliar operating system and computer system. Some of my triumphs at BlueStamp Engineering were when I finally got the Raspberry Pi to boot and load the Magic Mirror software for the first time using PM2.
+- During my time at BlueStamp Engineering, I've learned how to work with Linux terminals and operating systems, which were very unfamiliar to me before my enrollment in this program.
+- I hope to learn more about the concepts and subject of Computer Science, as well as Mechanical engineering after my time at BlueStamp.
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-![photo](20230629_123201.jpg)
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FkAimSxB3Dw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
@@ -40,8 +44,6 @@ I plan to build the Smart Mirror with the open source MagicMirror software for t
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PQV4ZbAJ9d4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
 Listed below are the modifications and code that have been used for the creation of the Smart Mirror.
