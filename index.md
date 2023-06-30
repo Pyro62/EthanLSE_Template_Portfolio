@@ -53,6 +53,153 @@ Listed below are the modifications and code that have been used for the creation
 | Home Wifi Module| This is the module that allows for the customization of a QR code to display the user's home Wi-Fi. | Home Wifi Accessibility | <a href="https://github.com/TeraTech/MMM-WiFiPassword/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
+`````
+/* MagicMirror² Config Sample
+ *
+ * By Michael Teeuw https://michaelteeuw.nl
+ * MIT Licensed.
+ *
+ * For more information on how you can configure this file
+ * see https://docs.magicmirror.builders/configuration/introduction.html
+ * and https://docs.magicmirror.builders/modules/configuration.html
+ *
+ * You can use environment variables using a `config.js.template` file instead of `config.js`
+ * which will be converted to `config.js` while starting. For more information
+ * see https://docs.magicmirror.builders/configuration/introduction.html#enviromnent-variables
+ */
+let config = {
+address: "localhost", // Address to listen on, can be:
+// - "localhost", "127.0.0.1", "::1" to listen on loopback interface
+// - another specific IPv4/6 to listen on a specific interface
+// - "0.0.0.0", "::" to listen on any interface
+// Default, when address config is left out or empty, is "localhost"
+port: 8080,
+basePath: "/", // The URL path where MagicMirror² is hosted. If you are using a Reverse proxy
+  // you must set the sub path here. basePath must end with a /
+ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1"], // Set [] to allow all IP addresses
+// or add a specific IPv4 of 192.168.1.5 :
+// ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.1.5"],
+// or IPv4 range of 192.168.3.0 --> 192.168.3.15 use CIDR format :
+// ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.3.0/28"],
+
+useHttps: false, // Support HTTPS or not, default "false" will use HTTP
+httpsPrivateKey: "", // HTTPS private key path, only require when useHttps is true
+httpsCertificate: "", // HTTPS Certificate path, only require when useHttps is true
+
+language: "en",
+locale: "en-US",
+logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
+timeFormat: 24,
+units: "imperial",
+
+modules: [
+{
+module: "alert",
+},
+{
+module: "updatenotification",
+position: "top_bar"
+},
+{
+module: "clock",
+position: "top_left"
+},
+{
+module: "calendar",
+header: "US Holidays",
+position: "top_left",
+config: {
+calendars: [
+{
+symbol: "calendar-check",
+url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"
+}
+]
+}
+},
+{
+module: "compliments",
+position: "lower_third"
+},
+{
+module: 'MMM-WiFiPassword',
+position: "top_left",
+config: {
+        //See 'Configuration options' for more information.
+network: "Spectrum9988",
+password: "my_pass",
+      }
+},
+{
+module: 'worldclock',
+position: 'top_left', // This can be any of the regions, best results in top_left or top_right regions
+config: {
+    // See 'Configuration options' for more information.
+
+    timeFormat: 'hh:mm A', //defined in moment.js format()
+    style: 'top', //predefined 4 styles; 'top', 'left','right','bottom'
+    offsetTimezone: null, // Or you can set `Europe/Berlin` to get timegap difference from this timezone. `null` will be UTC timegap.
+    clocks: [
+      {
+        title: "Home",
+      },
+      {
+        title: "HOLLYWOOD", // Too long title could cause ugly text align.
+        timezone: "America/Los_Angeles", //When omitted, Localtime will be displayed. It might be not your purporse, I bet.
+        flag: "us",
+      },
+      {
+        timezone: "Asia/Seoul",
+      },
+    ]
+  }
+},
+{
+module: "weather",
+position: "top_right",
+config: {
+weatherProvider: "openweathermap",
+type: "current",
+location: "West Covina",
+locationID: "5407933", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+apiKey: "603a6954948bec140417a6540b2b7a4f"
+}
+},
+{
+module: "weather",
+position: "top_right",
+header: "Weather Forecast",
+config: {
+weatherProvider: "openweathermap",
+type: "forecast",
+location: "West Covina",
+locationID: "5407933", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+apiKey: "603a6954948bec140417a6540b2b7a4f"
+}
+},
+{
+module: "newsfeed",
+position: "bottom_bar",
+config: {
+feeds: [
+{
+title: "LA Times",
+url: "https://www.latimes.com/science/rss2.0.xml#nt=0000016c-0bf3-d57d-afed-2fff84fd0000-1col-7030col1"
+}
+],
+showSourceTitle: true,
+showPublishDate: true,
+broadcastNewsFeeds: true,
+broadcastNewsUpdates: true
+}
+},
+]
+};
+
+/*************** DO NOT EDIT THE LINE BELOW ***************/
+if (typeof module !== "undefined") {module.exports = config;}
+`````
+
 
 
 # Bill of Materials
