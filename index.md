@@ -29,7 +29,7 @@ For my second milestone, I've added additional functionality to the Smart Mirror
 - Challenges: This project marks my first time ever working with a Raspberry Pi/Linux operating system. So it was a little tricky learning to work around and use the terminal effectively compared to using windows.
 - I'm looking to finish modifications to the mirror and have my final milestone be actually assembling the mirror as a tangible object.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8tbGLLOlhSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/8tbGLLOlhSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
 
 # First Milestone
 I plan to build the Smart Mirror with the open source MagicMirror software for the Raspberry Pi.
@@ -38,7 +38,7 @@ I plan to build the Smart Mirror with the open source MagicMirror software for t
 - Challenges: I had trouble with creating the mm.sh file to autostart the Magic Mirror, but my instructor Mr. Remston guided me through that. I have also had challenges with the config.js file as well as the OpenWeather API, as it was my first time working with these elements. I worked through the config.js files by instead going through the module folder, rather than editing everything within the config.js file. 
 - I plan to put the Raspberry Pi onto a 7 inch IPS display in a frame to complete this project, as well to add more modules and modifications.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PQV4ZbAJ9d4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/PQV4ZbAJ9d4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
 
 
 # Code
