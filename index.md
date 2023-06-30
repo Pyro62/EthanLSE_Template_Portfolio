@@ -20,7 +20,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 ![photo](20230629_123201.jpg)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8tbGLLOlhSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 # Second Milestone
 For my second milestone, I've added additional functionality to the Smart Mirror Software as well as a few modifications.
@@ -29,9 +29,7 @@ For my second milestone, I've added additional functionality to the Smart Mirror
 - Challenges: This project marks my first time ever working with a Raspberry Pi/Linux like operating system. So it was a little tricky learning to work around and use the terminal effectively compared to using windows.
 - I'm looking to finish modifications to the mirror and have my final milestone be actually assembling the mirror as a tangible object.
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://youtu.be/8tbGLLOlhSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8tbGLLOlhSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
 I plan to build the Smart Mirror with the open source MagicMirror software for the Raspberry Pi
