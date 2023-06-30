@@ -6,8 +6,6 @@ This is the Smart Mirror that I built during my time at BlueStamp Engineering. I
 | Ethan L | Glen A. Wilson High School | Computer Science | Incoming Junior
 
 
-![Headstone Image](logo.svg)
-
 ![photo](20230629_123201.jpg)
   
 # Final Milestone
