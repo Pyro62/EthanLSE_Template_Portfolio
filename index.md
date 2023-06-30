@@ -53,7 +53,7 @@ Listed below are the modifications and code that have been used for the creation
 | Home Wifi Module| This is the module that allows for the customization of a QR code to display the user's home Wi-Fi. | Home Wifi Accessibility | <a href="https://github.com/TeraTech/MMM-WiFiPassword/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
-`````
+```
 /* MagicMirror² Config Sample
  *
  * By Michael Teeuw https://michaelteeuw.nl
@@ -198,7 +198,7 @@ broadcastNewsUpdates: true
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
 if (typeof module !== "undefined") {module.exports = config;}
-`````
+```
 
 
 
